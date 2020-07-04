@@ -1,0 +1,13 @@
+
+
+2020-07-04 15:08:47,915 : ERROR : __main__ : When "./02-input\103000003673_page-001_page-001.jpg" was being processed an error has occured!
+Traceback (most recent call last):
+  File "C:/Users/m.yadegari/PycharmProjects/image2text-master/convertor.py", line 108, in <module>
+    osd = pytesseract.image_to_osd(Image.open(img))
+  File "C:\Users\m.yadegari\AppData\Local\Programs\Python\Python37\lib\site-packages\pytesseract\pytesseract.py", line 455, in image_to_osd
+    }[output_type]()
+  File "C:\Users\m.yadegari\AppData\Local\Programs\Python\Python37\lib\site-packages\pytesseract\pytesseract.py", line 454, in <lambda>
+    Output.STRING: lambda: run_and_get_output(*args),
+  File "C:\Users\m.yadegari\AppData\Local\Programs\Python\Python37\lib\site-packages\pytesseract\pytesseract.py", line 272, in run_and_get_output
+    with open(filename, 'rb') as output_file:
+FileNotFoundError: [Errno 2] No such file or directory: 'C:\\Users\\MAFEC~1.YAD\\AppData\\Local\\Temp\\tess_a3vibgzz.osd'

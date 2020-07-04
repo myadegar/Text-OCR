@@ -1,0 +1,5 @@
+pytesseract
+PyPDF2
+mtranslate
+opencv-python==4.2.0.34
+imutils==0.5.3
